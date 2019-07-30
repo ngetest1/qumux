@@ -6,7 +6,7 @@ echo $cln;
 system("clear");
 kkktp_banner();
 @ini_set('output_buffering',0);
-$data = array('CLBK |  '"CODING LAMA BERES KAGA" |');
+$data = array('CLBK |  'CODING LAMA BERES KAGA |');
 $data2 = $data[array_rand($data)];
 $data3 = explode(' | ', $data2);
 //$ktp = base64_encode($data3[0]);
